@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75D70F5322D6FEDD008A1293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D70F5222D6FEDD008A1293 /* AppDelegate.swift */; };
-		75D70F5522D6FEDD008A1293 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D70F5422D6FEDD008A1293 /* art.scnassets */; };
-		75D70F5722D6FEDD008A1293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D70F5622D6FEDD008A1293 /* ViewController.swift */; };
-		75D70F5A22D6FEDD008A1293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D70F5822D6FEDD008A1293 /* Main.storyboard */; };
-		75D70F5C22D6FEE0008A1293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D70F5B22D6FEE0008A1293 /* Assets.xcassets */; };
-		75D70F5F22D6FEE0008A1293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D70F5D22D6FEE0008A1293 /* LaunchScreen.storyboard */; };
+		750C25F622D710EA00F0D36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C25F522D710EA00F0D36B /* AppDelegate.swift */; };
+		750C25F822D710EA00F0D36B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C25F722D710EA00F0D36B /* ViewController.swift */; };
+		750C25FB22D710EA00F0D36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750C25F922D710EA00F0D36B /* Main.storyboard */; };
+		750C25FD22D710F100F0D36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750C25FC22D710F100F0D36B /* Assets.xcassets */; };
+		750C260022D710F100F0D36B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750C25FE22D710F100F0D36B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		75D70F4F22D6FEDD008A1293 /* kisekaeland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kisekaeland.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		75D70F5222D6FEDD008A1293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75D70F5422D6FEDD008A1293 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		75D70F5622D6FEDD008A1293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		75D70F5922D6FEDD008A1293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		75D70F5B22D6FEE0008A1293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		75D70F5E22D6FEE0008A1293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75D70F6022D6FEE1008A1293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		750C25F222D710EA00F0D36B /* kisekaelandcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kisekaelandcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		750C25F522D710EA00F0D36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		750C25F722D710EA00F0D36B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		750C25FA22D710EA00F0D36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		750C25FC22D710F100F0D36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		750C25FF22D710F100F0D36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		750C260122D710F100F0D36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		75D70F4C22D6FEDD008A1293 /* Frameworks */ = {
+		750C25EF22D710EA00F0D36B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		75D70F4622D6FEDD008A1293 = {
+		750C25E922D710EA00F0D36B = {
 			isa = PBXGroup;
 			children = (
-				75D70F5122D6FEDD008A1293 /* kisekaeland */,
-				75D70F5022D6FEDD008A1293 /* Products */,
+				750C25F422D710EA00F0D36B /* kisekaelandcam */,
+				750C25F322D710EA00F0D36B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		75D70F5022D6FEDD008A1293 /* Products */ = {
+		750C25F322D710EA00F0D36B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75D70F4F22D6FEDD008A1293 /* kisekaeland.app */,
+				750C25F222D710EA00F0D36B /* kisekaelandcam.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75D70F5122D6FEDD008A1293 /* kisekaeland */ = {
+		750C25F422D710EA00F0D36B /* kisekaelandcam */ = {
 			isa = PBXGroup;
 			children = (
-				75D70F5222D6FEDD008A1293 /* AppDelegate.swift */,
-				75D70F5422D6FEDD008A1293 /* art.scnassets */,
-				75D70F5622D6FEDD008A1293 /* ViewController.swift */,
-				75D70F5822D6FEDD008A1293 /* Main.storyboard */,
-				75D70F5B22D6FEE0008A1293 /* Assets.xcassets */,
-				75D70F5D22D6FEE0008A1293 /* LaunchScreen.storyboard */,
-				75D70F6022D6FEE1008A1293 /* Info.plist */,
+				750C25F522D710EA00F0D36B /* AppDelegate.swift */,
+				750C25F722D710EA00F0D36B /* ViewController.swift */,
+				750C25F922D710EA00F0D36B /* Main.storyboard */,
+				750C25FC22D710F100F0D36B /* Assets.xcassets */,
+				750C25FE22D710F100F0D36B /* LaunchScreen.storyboard */,
+				750C260122D710F100F0D36B /* Info.plist */,
 			);
-			path = kisekaeland;
+			path = kisekaelandcam;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75D70F4E22D6FEDD008A1293 /* kisekaeland */ = {
+		750C25F122D710EA00F0D36B /* kisekaelandcam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75D70F6322D6FEE1008A1293 /* Build configuration list for PBXNativeTarget "kisekaeland" */;
+			buildConfigurationList = 750C260422D710F100F0D36B /* Build configuration list for PBXNativeTarget "kisekaelandcam" */;
 			buildPhases = (
-				75D70F4B22D6FEDD008A1293 /* Sources */,
-				75D70F4C22D6FEDD008A1293 /* Frameworks */,
-				75D70F4D22D6FEDD008A1293 /* Resources */,
+				750C25EE22D710EA00F0D36B /* Sources */,
+				750C25EF22D710EA00F0D36B /* Frameworks */,
+				750C25F022D710EA00F0D36B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = kisekaeland;
-			productName = kisekaeland;
-			productReference = 75D70F4F22D6FEDD008A1293 /* kisekaeland.app */;
+			name = kisekaelandcam;
+			productName = kisekaelandcam;
+			productReference = 750C25F222D710EA00F0D36B /* kisekaelandcam.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		75D70F4722D6FEDD008A1293 /* Project object */ = {
+		750C25EA22D710EA00F0D36B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = tcs15059;
 				TargetAttributes = {
-					75D70F4E22D6FEDD008A1293 = {
+					750C25F122D710EA00F0D36B = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = 75D70F4A22D6FEDD008A1293 /* Build configuration list for PBXProject "kisekaeland" */;
+			buildConfigurationList = 750C25ED22D710EA00F0D36B /* Build configuration list for PBXProject "kisekaelandcam" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 75D70F4622D6FEDD008A1293;
-			productRefGroup = 75D70F5022D6FEDD008A1293 /* Products */;
+			mainGroup = 750C25E922D710EA00F0D36B;
+			productRefGroup = 750C25F322D710EA00F0D36B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75D70F4E22D6FEDD008A1293 /* kisekaeland */,
+				750C25F122D710EA00F0D36B /* kisekaelandcam */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		75D70F4D22D6FEDD008A1293 /* Resources */ = {
+		750C25F022D710EA00F0D36B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D70F5522D6FEDD008A1293 /* art.scnassets in Resources */,
-				75D70F5F22D6FEE0008A1293 /* LaunchScreen.storyboard in Resources */,
-				75D70F5C22D6FEE0008A1293 /* Assets.xcassets in Resources */,
-				75D70F5A22D6FEDD008A1293 /* Main.storyboard in Resources */,
+				750C260022D710F100F0D36B /* LaunchScreen.storyboard in Resources */,
+				750C25FD22D710F100F0D36B /* Assets.xcassets in Resources */,
+				750C25FB22D710EA00F0D36B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		75D70F4B22D6FEDD008A1293 /* Sources */ = {
+		750C25EE22D710EA00F0D36B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D70F5722D6FEDD008A1293 /* ViewController.swift in Sources */,
-				75D70F5322D6FEDD008A1293 /* AppDelegate.swift in Sources */,
+				750C25F822D710EA00F0D36B /* ViewController.swift in Sources */,
+				750C25F622D710EA00F0D36B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		75D70F5822D6FEDD008A1293 /* Main.storyboard */ = {
+		750C25F922D710EA00F0D36B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				75D70F5922D6FEDD008A1293 /* Base */,
+				750C25FA22D710EA00F0D36B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		75D70F5D22D6FEE0008A1293 /* LaunchScreen.storyboard */ = {
+		750C25FE22D710F100F0D36B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				75D70F5E22D6FEE0008A1293 /* Base */,
+				750C25FF22D710F100F0D36B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		75D70F6122D6FEE1008A1293 /* Debug */ = {
+		750C260222D710F100F0D36B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		75D70F6222D6FEE1008A1293 /* Release */ = {
+		750C260322D710F100F0D36B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,40 +278,38 @@
 			};
 			name = Release;
 		};
-		75D70F6422D6FEE1008A1293 /* Debug */ = {
+		750C260522D710F100F0D36B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QNYMJV4WVM;
-				INFOPLIST_FILE = kisekaeland/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				INFOPLIST_FILE = kisekaelandcam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyocs.kisekaeland;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyocs.kisekaelandcam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		75D70F6522D6FEE1008A1293 /* Release */ = {
+		750C260622D710F100F0D36B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QNYMJV4WVM;
-				INFOPLIST_FILE = kisekaeland/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				INFOPLIST_FILE = kisekaelandcam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyocs.kisekaeland;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyocs.kisekaelandcam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -323,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75D70F4A22D6FEDD008A1293 /* Build configuration list for PBXProject "kisekaeland" */ = {
+		750C25ED22D710EA00F0D36B /* Build configuration list for PBXProject "kisekaelandcam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75D70F6122D6FEE1008A1293 /* Debug */,
-				75D70F6222D6FEE1008A1293 /* Release */,
+				750C260222D710F100F0D36B /* Debug */,
+				750C260322D710F100F0D36B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75D70F6322D6FEE1008A1293 /* Build configuration list for PBXNativeTarget "kisekaeland" */ = {
+		750C260422D710F100F0D36B /* Build configuration list for PBXNativeTarget "kisekaelandcam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75D70F6422D6FEE1008A1293 /* Debug */,
-				75D70F6522D6FEE1008A1293 /* Release */,
+				750C260522D710F100F0D36B /* Debug */,
+				750C260622D710F100F0D36B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 75D70F4722D6FEDD008A1293 /* Project object */;
+	rootObject = 750C25EA22D710EA00F0D36B /* Project object */;
 }

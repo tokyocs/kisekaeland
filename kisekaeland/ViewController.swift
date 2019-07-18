@@ -30,6 +30,24 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.scene = scene
     }
     
+    
+    @IBAction func handleTap(_ sender: UITapGestureRecognizer) {
+        guard let currentFrame = sceneView.session.currentFrame else { return  }
+        
+        let viewWidth  = sceneView.bounds.width
+        let viewHeight = sceneView.bounds.height
+        let imagePlane = SCNPlane(width: viewWidth/6000, height: viewHeight/6000)
+        imagePlane.firstMaterial?.diffuse.contents = sceneView.snapshot()
+        imagePlane.firstMaterial?.lightingModel = .constant
+        
+        let planeNode = SCNNode(geometry: imagePlane)
+        sceneView.scene.rootNode.addChildNode(planeNode)
+        
+        var translation = matrix_identity_float4x4
+        translation.columns.3.z = -0.1
+        planeNode.simdTransform = matrix_multiply(currentFrame.camera.transform, translation)
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
